@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework №2</title>
+</head>
+<body>
+<h1 align="center">Анкета посетителя ресторана</h1>
+<form action>
+<fieldset>
+<legend>Контактная ифнормация</legend>
+<label for="name">Имя</label><br>
+<input type="text" name="registration_form" id="name"><br>
+<label for="phone">Телефон</label><br>
+<input type="phone" name="registration_phone" id="phone"><br>
+<label for="email">Email</label> <br>
+<input type="email" name="registration_email" id="email"><br>
+<label for="date">Дата посещения</label><br>
+<input type="date" name="registration_date" id="date"><br>
+</fieldset>
+<br>
+<fieldset>
+<legend>Персональная ифнормация</legend>
+<label>Возраст</label><br>
+<input type="number"min="1" max="100"><br>
+<label>Любимая кухня</label><br>
+<select name="citchen" id="citchen">
+<option value="UK">Украинская</option>
+<option value="USA">Американская</option><br>
+</select><br>
+<label>Какаие блюда Вы хотели бы увидеть в меню</label><br>
+<textarea></textarea>
+</fieldset>
+
+<fieldset>
+<legend>Оценка нашено завеления</legend>
+<h3>Почему вы выбрали наше заведение</h3>
+<label><input type="radio" >Недалеко от дома</label><br>
+<label><input type="radio">Увидел рекламу</label><br>
+<label><input type="radio">Посоветовали</label><br>
+<label><input type="radio">Оптимальное соотношение цены и качества</label><br>
+<h3>Вы будете рекомендовать наше заведение своим знакомым</h3>
+<label><input type="radio" >Да</label><br>
+<label><input type="radio">Нет</label><br>
+</fieldset>
+<input type="submit" value="Отправить">
+`
+</body>
+</html>
